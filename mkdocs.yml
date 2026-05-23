@@ -1,0 +1,26 @@
+site_name: Brae Barnes
+site_url: https://braebarnes.com
+
+theme:
+  name: material
+  palette: 
+    - scheme: default #Light mode
+      primary: amber
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate #Dark mode
+      primary: amber
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  # features:
+  #   - navigation.expand
+  icon:
+    logo : material/pokeball
+
+nav:
+  - Home: index.md
+  
